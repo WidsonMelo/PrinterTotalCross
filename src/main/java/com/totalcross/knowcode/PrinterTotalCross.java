@@ -21,9 +21,9 @@ import totalcross.ui.MainWindow;
 import totalcross.ui.event.ControlEvent;
 import totalcross.ui.event.PressListener;
 
-public class PrinterApplianceXML extends MainWindow {
+public class PrinterTotalCross extends MainWindow {
 
-	public PrinterApplianceXML() {
+	public PrinterTotalCross() {
 		setUIStyle(Settings.MATERIAL_UI);
 	}
 
