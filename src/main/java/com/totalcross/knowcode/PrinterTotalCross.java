@@ -37,17 +37,12 @@ public class PrinterTotalCross extends MainWindow {
 		XmlContainerLayout xmlCont = (XmlContainerLayout) XmlContainerFactory.create("xml/printer_design.xml");
 		swap(xmlCont);
 		
-		
-
-
 		Button copy = (Button) xmlCont.getControlByID("@+id/copy");
 		copy.addPressListener(new PressListener() {
 			@Override
 			public void controlPressed(ControlEvent e) {	
 				try {
 					Process process = Runtime.getRuntime().exec("python copy.py");
-//					process.getOutputStream().write("".getBytes(), 0, "".getBytes().length); // write output
-//					process.waitFor();
 					JOptionPane.showMessageDialog(null, "COPY");
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
