@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="848dp"
+                                                   android:layout_height="480dp"
+                                                   android:background="#2F3243">
+            
+<TextView
+            android:id="@+id/textView1"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:background="#2F3243"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#F5F5F5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="446dp"
+            tools:layout_editor_absoluteY="20dp" />
+            
+<ImageView
+            android:id="@+id/wifi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/wifi"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="20dp" />
+            
+<ImageView
+            android:id="@+id/phone"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:background="@drawable/phone"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="20dp" />
+            
+<ImageView
+            android:id="@+id/leaf"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/leaf"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="20dp" />
+            
+<ImageView
+            android:id="@+id/computer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/computer"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+<ImageView
+            android:id="@+id/background1"
+            android:layout_width="828dp"
+            android:layout_height="300dp"
+            android:background="@drawable/background1"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="170dp" />
+            
+<ImageView
+            android:id="@+id/background2"
+            android:layout_width="766dp"
+            android:layout_height="262dp"
+            android:background="@drawable/background2"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="109dp" />
+            
+<Button
+            android:id="@+id/copy"
+            android:layout_width="154dp"
+            android:layout_height="202dp"
+            android:background="@drawable/copy"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="139dp" />
+            
+<Button
+            android:id="@+id/scan"
+            android:layout_width="154dp"
+            android:layout_height="202dp"
+            android:background="@drawable/scan"
+            tools:layout_editor_absoluteX="255dp"
+            tools:layout_editor_absoluteY="139dp" />
+            
+<Button
+            android:id="@+id/print"
+            android:layout_width="154dp"
+            android:layout_height="202dp"
+            android:background="@drawable/print"
+            tools:layout_editor_absoluteX="439dp"
+            tools:layout_editor_absoluteY="139dp" />
+            
+<Button
+            android:id="@+id/setup"
+            android:layout_width="154dp"
+            android:layout_height="202dp"
+            android:background="@drawable/setup"
+            tools:layout_editor_absoluteX="623dp"
+            tools:layout_editor_absoluteY="139dp" />
+            
+<ImageView
+            android:id="@+id/blue_bar"
+            android:layout_width="35dp"
+            android:layout_height="80dp"
+            android:background="@drawable/blue_bar"
+            tools:layout_editor_absoluteX="623dp"
+            tools:layout_editor_absoluteY="350dp" />
+            
+<ImageView
+            android:id="@+id/pink_bar"
+            android:layout_width="35dp"
+            android:layout_height="49dp"
+            android:background="@drawable/pink_bar"
+            tools:layout_editor_absoluteX="673dp"
+            tools:layout_editor_absoluteY="381dp" />
+            
+<ImageView
+            android:id="@+id/yellow_bar"
+            android:layout_width="35dp"
+            android:layout_height="65dp"
+            android:background="@drawable/yellow_bar"
+            tools:layout_editor_absoluteX="723dp"
+            tools:layout_editor_absoluteY="365dp" />
+            
+<ImageView
+            android:id="@+id/black_bar"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:background="@drawable/black_bar"
+            tools:layout_editor_absoluteX="773dp"
+            tools:layout_editor_absoluteY="410dp" />
+            
+<TextView
+            android:id="@+id/textView2"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:text="What do you want to today?"
+            android:textColor="#2F3243"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="380dp" />
+            
+<TextView
+            android:id="@+id/textView3"
+            android:layout_width="120dp"
+            android:layout_height="10dp"
+            android:background="#FFFFFF"
+            android:text="Powered by TotalCross"
+            android:textColor="#2F3243"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="690dp"
+            tools:layout_editor_absoluteY="455dp" />
+            
+<ImageView
+            android:id="@+id/logo_totalcross"
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:background="@drawable/logo_totalcross"
+            tools:layout_editor_absoluteX="810dp"
+            tools:layout_editor_absoluteY="440dp" />
+            
+</androidx.constraintlayout.widget.ConstraintLayout>
